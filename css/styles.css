@@ -212,6 +212,8 @@ img {
 .menu-link {
     color: var(--title-color);
     font-weight: 500;
+
+    transition: color var(--transition-dur-and-func);
 }
 
 .menu-link:hover,
@@ -231,7 +233,8 @@ img {
 .contacts-link {
     color: var(--primary-text-color);
     font-style: normal;
-}
+
+    transition: color var(--transition-dur-and-func);}
 
 .contacts-link:hover,
 .contacts-link:focus {
@@ -274,6 +277,8 @@ img {
     background-color: var(--accent-color);
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .hero-btn:hover,
@@ -332,6 +337,8 @@ img {
 
 .team-social-list-link {
     background-color: var(--accent-color);
+    
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .team-social-list-link:hover,
@@ -356,6 +363,8 @@ img {
     height: 88px;
     border: 1px solid var(--company-logo-color);
     border-radius: 4px;
+
+    transition: border var(--transition-dur-and-func);
 }
 .customers-list-link:hover,
 .customers-list-link:focus{
@@ -364,6 +373,8 @@ img {
 
 .customers-list-icon{
     fill: var(--company-logo-color);
+
+    transition: fill var(--transition-dur-and-func);
 }
 
 .customers-list-link:hover .customers-list-icon,
@@ -414,6 +425,8 @@ img {
 
 .social-list-link{
     background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .social-list-link:hover,
@@ -443,6 +456,9 @@ img {
     color: var(--accent-color);
     background-color: var(--color-cloud);
     border: 1px solid var(--color-cornflower);
+
+    transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func),
+     border-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
 
 .filter-btn:hover,
@@ -465,6 +481,7 @@ img {
     flex-basis: calc((100% - 48px) / 3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-list-img-box{
     position: relative;
     overflow: hidden;
@@ -483,7 +500,6 @@ img {
 
     transform: translateY(100%);
     transition: transform var(--transition-dur-and-func);
-
 }
 
 .wrapper{
@@ -498,7 +514,8 @@ img {
     display: block;
     text-decoration: none;
     color:inherit;
-
+    
+    transition: box-shadow var(--transition-dur-and-func), border var(--transition-dur-and-func);
  }
 
  .portfolio-list-link:hover,
