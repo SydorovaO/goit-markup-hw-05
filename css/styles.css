@@ -79,6 +79,7 @@ img {
     border-radius: 2px;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 
@@ -580,6 +581,7 @@ img {
     background-color: var(--color-cornflower);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    cursor: pointer;
     
     transition: background-color var(--transition-dur-and-func);
 }
